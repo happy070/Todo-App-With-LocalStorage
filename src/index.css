@@ -1,0 +1,50 @@
+.child-div{
+  margin-top: 80px !important;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.items-div{
+  margin-top: 80px !important;
+  width: 50%;
+  height: 60px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.add-icon {
+  
+  color: rgb(25, 147, 47);  /* Default color */
+  font-size: 50px; /* Default font size */
+}
+.add-icon:hover {
+  color: white;
+  /* Change color on hover */
+  cursor: pointer; /* Show pointer cursor on hover */
+  font-size: 30px;
+}
+.deleteIcon:hover{
+  color: red;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .child-div{
+    margin-top: 80px !important;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .items-div{
+    margin-top: 80px !important;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+}
+.content:hover{
+  cursor: pointer;
+}
